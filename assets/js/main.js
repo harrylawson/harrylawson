@@ -4,6 +4,7 @@ $(document).ready(function() {
 	harrylawson.init();
 	harrylawson.handleRandomLink();
 	harrylawson.handleHeader();
+	harrylawson.displayRandomPage();
 });
 
 $(window).on('resize', function() {
@@ -31,4 +32,14 @@ harrylawson.handleHeader = function() {
 			$(this).removeClass('closed');
 		}
 	});
+}
+
+harrylawson.displayRandomPage = function() {
+	var pages = $('#pages .page');
+
+	var random = Math.floor(Math.random()*pages.length);
+	var randomPage = pages.eq(random);
+
+	$('#text-box .inner').html(randomPage.find('.text').html());
+	$('#media-box').html(randomPage.find('.image').html());
 }
