@@ -1,7 +1,7 @@
 body {
 	color: #000000;
 	font-family: Times;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 }
 
@@ -9,11 +9,15 @@ a {
 	color: #000000;
 }
 
+a:hover {
+	color: #000000;
+}
+
 
 header {
 	height: 70px;
 	line-height: 70px;
-	border-bottom: 1px solid #e1e1e1;
+	border-bottom: 2px solid #e1e1e1;
 	padding: 0 30px;
 	position: fixed;
 	top: 0;
@@ -22,7 +26,7 @@ header {
 	background-color: #ffffff;
 	z-index: 100;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 26px;
 }
 
 header.closed {
@@ -41,11 +45,11 @@ header a.about {
 
 #header-switcher {
 	position: fixed;
-	top: 100px;
-	left: 30px;
-	width: 8px;
-	height: 10px;
-	background: url(../images/arrow-header.png) top left no-repeat;
+	top: 80px;
+	left: 10px;
+	width: 28px;
+	height: 30px;
+	background: url(../images/arrow-header.png) center no-repeat;
 	background-size: 8px 10px;
 	-ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
@@ -58,7 +62,7 @@ header a.about {
 	-ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    top: 30px;
+    top: 10px;
 }
 
 footer {
