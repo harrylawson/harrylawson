@@ -177,7 +177,7 @@ div#pages img {
 
 	#text-container #text-box .inner {
 		overflow: auto;
-		vertical-align: top;
+		vertical-align: middle;
 		height: auto !important;
 	}
 
