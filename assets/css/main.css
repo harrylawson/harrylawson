@@ -1,7 +1,7 @@
 body {
 	color: #000000;
 	font-family: Times;
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: bold;
 }
 
@@ -15,7 +15,7 @@ a:hover {
 
 
 header {
-	height: 70px;
+	height: 100px;
 	line-height: 70px;
 	border-bottom: 2px solid #e1e1e1;
 	padding: 0 30px;
@@ -26,7 +26,7 @@ header {
 	background-color: #ffffff;
 	z-index: 100;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 55px;
 }
 
 header.closed {
@@ -45,7 +45,7 @@ header a.about {
 
 #header-switcher {
 	position: fixed;
-	top: 80px;
+	top: 110px;
 	left: 10px;
 	width: 28px;
 	height: 30px;
