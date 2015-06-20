@@ -47,7 +47,7 @@ header a.about {
 
 #header-switcher {
 	position: fixed;
-	top: 110px;
+	top: 120px;
 	left: 10px;
 	width: 28px;
 	height: 30px;
@@ -100,10 +100,12 @@ footer {
 
 #text-container #text-box .inner {
 	overflow: auto;
+	vertical-align: middle;
 }
 
 #text-container #text-box p {
 	margin: 0 0 20px;
+	vertical-align: middle;
 }
 
 #text-container #text-box p:last-child {
@@ -181,6 +183,7 @@ div#pages img {
 
 	#text-container #text-box .inner {
 		overflow: auto;
+		padding-top: 120px;
 		vertical-align: middle;
 		height: auto !important;
 	}
