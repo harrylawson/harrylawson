@@ -144,8 +144,8 @@ div#pages img {
 	
 	body {
 	color: #000000;
-	font-family: 'Larish Alte Semibold';
-	font-weight: normal;
+	font-family: pt-serif, serif;
+	font-weight: bold;
 	font-style:  normal;
 	font-stretch: normal;
 	font-size: 25px;
@@ -164,8 +164,8 @@ div#pages img {
 	
 	body {
 	color: #000000;
-	font-family: 'Larish Alte Semibold';
-	font-weight: normal;
+	font-family: pt-serif, serif;
+	font-weight: bold;
 	font-style:  normal;
 	font-stretch: normal;
 	font-size: 20px;
