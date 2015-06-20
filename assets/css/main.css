@@ -181,7 +181,7 @@ div#pages img {
 		left: 0;
 	}
 
-	#text-container #text-box .inner {
+	#media-container {
 		overflow: auto;
 		padding-top: 120px;
 		vertical-align: middle;
