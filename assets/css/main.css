@@ -140,7 +140,7 @@ div#pages img {
 	visibility: hidden;
 }
 
-@media only screen and (max-width:1330px) {
+@media only screen and (max-width:1530px) {
 	
 	body {
 	color: #000000;
@@ -160,7 +160,7 @@ div#pages img {
 	}
 }
 
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:890px) {
 	
 	body {
 	color: #000000;
