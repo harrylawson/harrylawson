@@ -18,10 +18,8 @@ harrylawson.init = function() {
 	contentHeight = $('#text-box .inner').innerHeight();
 	$('#text-box .inner').height(newHeight);
 	if(contentHeight < newHeight) {
-		console.log('table-cell')
 		$('#text-box .inner').addClass('table-cell');
 	} else {
-		console.log('block')
 		$('#text-box .inner').removeClass('table-cell');
 	}
 }
