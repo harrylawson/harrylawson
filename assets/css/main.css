@@ -101,6 +101,11 @@ footer {
 #text-container #text-box .inner {
 	overflow: auto;
 	vertical-align: middle;
+	display: block;
+}
+
+#text-container #text-box .inner.table-cell {
+	display: table-cell;
 }
 
 #text-container #text-box p {

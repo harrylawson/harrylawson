@@ -13,8 +13,17 @@ $(window).on('resize', function() {
 
 harrylawson.init = function() {
 	var innerHeight = window.innerHeight-100,
-	innerWidth = window.innerWidth/2;
-	$('#text-box .inner').height(innerHeight*0.8);	
+	innerWidth = window.innerWidth/2,
+	newHeight = innerHeight*0.8,
+	contentHeight = $('#text-box .inner').innerHeight();
+	$('#text-box .inner').height(newHeight);
+	if(contentHeight < newHeight) {
+		console.log('table-cell')
+		$('#text-box .inner').addClass('table-cell');
+	} else {
+		console.log('block')
+		$('#text-box .inner').removeClass('table-cell');
+	}
 }
 
 harrylawson.handleRandomLink = function() {
