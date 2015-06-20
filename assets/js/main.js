@@ -14,17 +14,7 @@ $(window).on('resize', function() {
 harrylawson.init = function() {
 	var innerHeight = window.innerHeight-100,
 	innerWidth = window.innerWidth/2;
-	$('#text-box .inner').height(innerHeight*0.8);
-
-	if(Modernizr.mq('(min-width: 767px)')) {
-		$('#text-box .inner').jScrollPane({autoReinitialise: true, verticalGutter:20});
-	} else {
-		var api = $('#text-box .inner').data('jsp');
-		if(api) {
-			api.destroy();
-		}
-	}
-	
+	$('#text-box .inner').height(innerHeight*0.8);	
 }
 
 harrylawson.handleRandomLink = function() {

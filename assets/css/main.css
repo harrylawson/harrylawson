@@ -143,12 +143,12 @@ div#pages img {
 @media only screen and (max-width:1530px) {
 	
 	body {
-	color: #000000;
-	font-family:  'Larish Alte Semibold';
-	font-weight:  normal;
-	font-style:   normal;
-	font-stretch: normal;
-	font-size: 25px;
+		color: #000000;
+		font-family:  'Larish Alte Semibold';
+		font-weight:  normal;
+		font-style:   normal;
+		font-stretch: normal;
+		font-size: 25px;
 	}
 
 	header {
@@ -163,12 +163,12 @@ div#pages img {
 @media only screen and (max-width:890px) {
 	
 	body {
-	color: #000000;
-	font-family:  'Larish Alte Semibold';
-	font-weight:  normal;
-	font-style:   normal;
-	font-stretch: normal;
-	font-size: 20px;
+		color: #000000;
+		font-family:  'Larish Alte Semibold';
+		font-weight:  normal;
+		font-style:   normal;
+		font-stretch: normal;
+		font-size: 20px;
 	}
 
 	header {
@@ -209,6 +209,18 @@ div#pages img {
 		width: 100%;
 		position: relative;
 		left: 0;
+	}
+
+	#text-container {
+		display: table-footer-group;
+	}
+
+	#text-container #text-box {
+		padding-top: 0px;
+	}
+
+	#media-container {
+		display: table-header-group;
 	}
 
 	#text-container #text-box .inner {
