@@ -49,8 +49,8 @@ header a.about {
 	position: fixed;
 	top: 120px;
 	left: 10px;
-	width: 41px;
-	height: 38px;
+	width: 50px;
+	height: 100px;
 	background: url(../images/arrow-header.png) center no-repeat;
 	background-size: 8px 10px;
 	-ms-transform: rotate(180deg);
