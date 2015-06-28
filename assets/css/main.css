@@ -74,6 +74,13 @@ footer {
 	font-size: 14px;
 }
 
+.by {
+	position: fixed;
+	bottom: 30px;
+	left: 30px;
+	font-size: 14px;
+	}
+
 #main-container {
 	display: table;
 	width: 100%;
@@ -244,6 +251,13 @@ div#pages img {
 		vertical-align: middle;
 		height: auto !important;
 	}
+	
+	.by{
+		position: relative;
+		text-align: center;
+		left: 0px;
+		padding-top: 10px;
+		}
 
 	footer {
 		position: relative;
